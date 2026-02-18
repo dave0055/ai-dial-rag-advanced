@@ -13,6 +13,7 @@ from task.models.role import Role
 # Provide instructions that LLM should use RAG Context when answer on User Question, will restrict LLM to answer
 # questions that are not related microwave usage, not related to context or out of history scope
 SYSTEM_PROMPT = """
+
 """
 
 #TODO:
